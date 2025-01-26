@@ -39,7 +39,7 @@ if __name__ == "__main__":
     rules.append("  - \'RULE-SET,HK,HK\'")
     rules.append("  - \'RULE-SET,CN,DIRECT\'")
     rules.append("  - \'MATCH,MainNode\'")
-    with open("clash.yaml", "w", encoding="utf-8") as file:
+    with open("file.yaml", "w", encoding="utf-8") as file:
         file.writelines(head)
         file.writelines(dns)
         for proxy in proxies:
