@@ -36,6 +36,7 @@ if __name__ == "__main__":
 
     rules = ["rules:"]
     rules.append("  - \'RULE-SET,Youtube,Youtube\'")
+    rules.append("  - \'RULE-SET,HK,HK\'")
     rules.append("  - \'RULE-SET,CN,DIRECT\'")
     rules.append("  - \'MATCH,MainNode\'")
     with open("clash.yaml", "w", encoding="utf-8") as file:

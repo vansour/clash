@@ -108,5 +108,6 @@ rule-providers:
   HK: { type: http, behavior: ipcidr, url: 'https://gitee.com/vansour/ruleproviders/raw/main/hk.txt',path: ./ruleset/hk.yaml, interval: 86400 }
 rules:
   - 'RULE-SET,Youtube,Youtube'
+  - 'RULE-SET,HK,HK'
   - 'RULE-SET,CN,DIRECT'
   - 'MATCH,MainNode'
